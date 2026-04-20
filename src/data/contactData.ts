@@ -5,6 +5,10 @@ export const contactData = {
     link: "https://wa.me/5547996089929",
     display: "(47) 99608-9929",
   },
+  phone: {
+    link: "tel:+554735149039",
+    display: "(47) 3514-9039",
+  },
   email: "contato@contemaislucro.com.br",
   social: {
     instagram: "https://instagram.com/contemaislucro",

@@ -118,16 +118,14 @@ const Contact: React.FC = () => {
 
             <div className="space-y-4 pt-12 border-t border-black/5">
               <a 
-                href={contactData.whatsapp.link} 
-                target="_blank" 
-                rel="noopener noreferrer"
+                href={contactData.phone.link} 
                 className="flex items-center gap-4 group cursor-pointer transition-all"
               >
                 <div className="w-10 h-10 bg-brand-black flex items-center justify-center text-brand-red group-hover:bg-brand-red group-hover:text-white transition-colors">
                   <MessageCircle size={18} />
                 </div>
                 <span className="text-xs md:text-sm font-bold text-brand-black group-hover:text-brand-red transition-colors uppercase tracking-widest">
-                  {contactData.whatsapp.display}
+                  {contactData.phone.display}
                 </span>
               </a>
 
