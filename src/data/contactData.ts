@@ -6,7 +6,7 @@ export const contactData = {
     display: "(47) 99608-9929",
   },
   phone: {
-    link: "tel:+554735149039",
+    link: "https://wa.me/554735149039?text=Ol%C3%A1%2C%20vim%20do%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.",
     display: "(47) 3514-9039",
   },
   email: "contato@contemaislucro.com.br",

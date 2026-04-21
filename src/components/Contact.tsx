@@ -119,6 +119,8 @@ const Contact: React.FC = () => {
             <div className="space-y-4 pt-12 border-t border-black/5">
               <a 
                 href={contactData.phone.link} 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-4 group cursor-pointer transition-all"
               >
                 <div className="w-10 h-10 bg-brand-black flex items-center justify-center text-brand-red group-hover:bg-brand-red group-hover:text-white transition-colors">
